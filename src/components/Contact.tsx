@@ -87,11 +87,25 @@ const Contact: React.FC = () => {
                 </div>
                 <div className="flex items-center">
                   <Github className="w-5 h-5 mr-3 text-blue-400" />
-                  <span>github.com/dedawit</span>
+                  <a
+                    href="https://github.com/dedawit"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:underline"
+                  >
+                    <span>github.com/dedawit</span>
+                  </a>
                 </div>
                 <div className="flex items-center">
                   <Linkedin className="w-5 h-5 mr-3 text-blue-400" />
-                  <span>linkedin.com/in/dawit-girma-7b8867228/</span>
+                  <a
+                    href="https://linkedin.com/in/dawit-girma-7b8867228/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:underline"
+                  >
+                    <span>linkedin.com/in/dawit-girma-7b8867228/</span>
+                  </a>
                 </div>
               </div>
             </div>

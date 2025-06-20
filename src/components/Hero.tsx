@@ -9,7 +9,7 @@ const Hero: React.FC = () => {
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
             Hello, I'm <span className="text-blue-400">Dawit Girma</span>
           </h2>
-          <p className="text-xl text-gray-300 mb-6">Full Stack Developer</p>
+          <p className="text-xl text-gray-300 mb-6">Software Engineer</p>
           <p className="text-gray-400 mb-8 max-w-lg">
             I specialize in building exceptional digital experiences. With a
             focus on both frontend and backend technologies, I create responsive
@@ -34,7 +34,7 @@ const Hero: React.FC = () => {
           <div className="relative">
             <div className="w-64 h-64 rounded-full overflow-hidden border-4 border-blue-500 shadow-lg shadow-blue-500/30">
               <img
-                src="profile/dawit.jpg"
+                src="profile/dawit3.webp"
                 alt="Dawit Girma Picture"
                 className="w-full h-full object-cover"
               />
