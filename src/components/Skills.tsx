@@ -10,6 +10,7 @@ import {
   FaJava,
   FaPython,
   FaLaravel,
+  FaDatabase,
 } from "react-icons/fa";
 import {
   SiNestjs,
@@ -45,11 +46,11 @@ const skillsWithIcons: Skill[] = [
     name: "JavaScript",
     icon: <FaJsSquare className="w-5 h-5 mr-2 text-yellow-400" />,
   },
-  { name: "PHP", icon: <FaPhp className="w-5 h-5 mr-2 text-purple-400" /> },
-  {
-    name: "Laravel",
-    icon: <FaLaravel className="w-5 h-5 mr-2 text-red-500" />,
-  },
+  // { name: "PHP", icon: <FaPhp className="w-5 h-5 mr-2 text-purple-400" /> },
+  // {
+  //   name: "Laravel",
+  //   icon: <FaLaravel className="w-5 h-5 mr-2 text-red-500" />,
+  // },
   { name: "Docker", icon: <FaDocker className="w-5 h-5 mr-2 text-blue-400" /> },
   { name: "Java", icon: <FaJava className="w-5 h-5 mr-2 text-red-500" /> },
   { name: "C#", icon: <SiSharp className="w-5 h-5 mr-2 text-purple-500" /> },
@@ -58,14 +59,19 @@ const skillsWithIcons: Skill[] = [
     icon: <FaPython className="w-5 h-5 mr-2 text-yellow-500" />,
   },
   {
-    name: "Adobe Photoshop",
-    icon: <SiAdobephotoshop className="w-5 h-5 mr-2 text-blue-600" />,
+    name: "PostgreSQL",
+    icon: <FaDatabase className="w-5 h-5 mr-2 text-blue-600" />,
   },
-  {
-    name: "Adobe Illustrator",
-    icon: <SiAdobeillustrator className="w-5 h-5 mr-2 text-orange-600" />,
-  },
-  { name: "Canva", icon: <SiCanva className="w-5 h-5 mr-2 text-blue-500" /> },
+  // },
+  // {
+  //   name: "Adobe Photoshop",
+  //   icon: <SiAdobephotoshop className="w-5 h-5 mr-2 text-blue-600" />,
+  // },
+  // {
+  //   name: "Adobe Illustrator",
+  //   icon: <SiAdobeillustrator className="w-5 h-5 mr-2 text-orange-600" />,
+  // },
+  // { name: "Canva", icon: <SiCanva className="w-5 h-5 mr-2 text-blue-500" /> },
 ];
 
 const Skills: React.FC = () => {

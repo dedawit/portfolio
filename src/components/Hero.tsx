@@ -9,9 +9,7 @@ const Hero: React.FC = () => {
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
             Hello, I'm <span className="text-blue-400">Dawit Girma</span>
           </h2>
-          <p className="text-xl text-gray-300 mb-6">
-            Full Stack Developer & Designer
-          </p>
+          <p className="text-xl text-gray-300 mb-6">Full Stack Developer</p>
           <p className="text-gray-400 mb-8 max-w-lg">
             I specialize in building exceptional digital experiences. With a
             focus on both frontend and backend technologies, I create responsive

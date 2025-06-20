@@ -22,10 +22,10 @@ const projects: Project[] = [
   },
   {
     id: 2,
-    title: "A Set of Graphics Works",
-    description: "My behance account for creating graphics designs",
-    image: "projects/canada.png",
-    technologies: ["Adobe Photoshop", "Adobe Illustrator", "Canva"],
+    title: "Electronic Patient Record Management System",
+    description: "Digital solution for managing patient records in healthcare",
+    image: "projects/health.jpg",
+    technologies: ["NestJs", "ReactJS", "Docker", "Postgres"],
     link: "https://www.behance.net/gallery/203917495/My-best-flyers", // Add link here
   },
   {

@@ -9,6 +9,7 @@ import {
   FaDocker,
   FaPython,
   FaLaravel,
+  FaDatabase,
 } from "react-icons/fa";
 import {
   SiCanva,
@@ -27,22 +28,22 @@ const skills = [
     name: "React.js",
     icon: <FaReact className="w-4 h-4 mr-1 text-blue-400" />,
   },
-  {
-    name: "Photoshop",
-    icon: <SiAdobephotoshop className="w-4 h-4 mr-1 text-blue-600" />,
-  },
-  {
-    name: "Canva",
-    icon: <SiCanva className="w-4 h-4 mr-1 text-blue-500" />,
-  },
+  // {
+  //   name: "Photoshop",
+  //   icon: <SiAdobephotoshop className="w-4 h-4 mr-1 text-blue-600" />,
+  // },
+  // {
+  //   name: "Canva",
+  //   icon: <SiCanva className="w-4 h-4 mr-1 text-blue-500" />,
+  // },
   {
     name: "Express.js",
     icon: <SiExpress className="w-4 h-4 mr-1 text-gray-400" />,
   },
-  {
-    name: "Laravel",
-    icon: <FaLaravel className="w-4 h-4 mr-1 text-red-500" />,
-  },
+  // {
+  //   name: "Laravel",
+  //   icon: <FaLaravel className="w-4 h-4 mr-1 text-red-500" />,
+  // },
   {
     name: "Docker",
     icon: <FaDocker className="w-4 h-4 mr-1 text-blue-400" />,
@@ -50,6 +51,18 @@ const skills = [
   {
     name: "Python",
     icon: <FaPython className="w-4 h-4 mr-1 text-yellow-500" />,
+  },
+  {
+    name: "Mongoose",
+    icon: <FaDatabase className="w-4 h-4 mr-1 text-green-600" />,
+  },
+  {
+    name: "PostgreSQL",
+    icon: <FaDatabase className="w-4 h-4 mr-1 text-blue-600" />,
+  },
+  {
+    name: "JavaScript",
+    icon: <FaJsSquare className="w-4 h-4 mr-1 text-yellow-400" />,
   },
 ];
 
